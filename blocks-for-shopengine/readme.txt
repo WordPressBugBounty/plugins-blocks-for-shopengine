@@ -1,7 +1,7 @@
 === ShopEngine Gutenberg WooCommerce Builder Blocks Addon - All in One WooCommerce Solution ===
 Contributors: xpeedstudio, Ataurr
 Tags: WooCommerce Builder, Woo builder, Gutenberg, WooCommerce, WooCommerce Gutenberg,  WooCommerce Product,
-Tested up to: 6.6
+Tested up to: 6.7
 Stable tag: 2.4.0
 Requires PHP: 7.4
 License:  GPLv3
