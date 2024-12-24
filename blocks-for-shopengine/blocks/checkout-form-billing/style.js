@@ -1,5 +1,9 @@
 
 const Style = ({settings, breakpoints, cssHelper})=>{
+    
+    const getObjectValuesForWidth = (obj) => {
+        return [...Object.values(obj)].join(' ');
+    }
     const {blockId, shopengine_form_title_color, shopengine_form_title_margin, shopengine_form_title_font_size, shopengine_form_container_color,shopengine_form_container_alignment, shopengine_form_container_padding, shopengine_label_color, shopengine_label_required_color, shopengine_label_font_size, shopengine_label_margin, shopengine_input_color, shopengine_input_font_size, shopengine_input_bg, shopengine_input_border_style,shopengine_input_border_width,shopengine_input_margin, shopengine_input_border_color,shopengine_input_padding, shopengine_input_focus_color, shopengine_input_focus_bg,shopengine_input_focus_border_style, font_family, shopengine_form_label_font_weight, shopengine_form_label_word_spacing, shopengine_form_label_text_transform, font_family2, shopengine_form_label_font_weight2, shopengine_form_label_word_spacing2, shopengine_form_label_text_transform2} = settings;
 
     const shopengine_form_title_show = settings.shopengine_form_title_show.desktop === true ? "block" : "none";

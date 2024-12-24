@@ -41,10 +41,6 @@ const Style = ({ settings, cssHelper }) => {
         grid-row-gap: ${val}px;
     `));
 
-    cssHelper.add('.shopengine-product-category-lists .shopengine-category-lists-grid .shopengine-category-items', settings.shopengine_product_cat_lists_item_content_gap, (val) => (`
-        gap: ${val}px;
-    `));
-
     cssHelper.add('.shopengine-product-category-lists .single-cat-list-item , .shopengine-product-category-lists .shopengine-category-items', settings.shopengine_list_normal_background_color, (val) => (`
         background: ${val};
     `));
@@ -134,9 +130,10 @@ const Style = ({ settings, cssHelper }) => {
         letter-spacing: ${val}px;
     `))
     
-    cssHelper.add('.shopengine-product-category-lists .product-category-title', settings.shopengine_title_margin, (val) => (`
-        margin: ${getObjectValues(val).split(',').join(' ')};
-    `));
+    cssHelper.add('.shopengine-product-category-lists .product-category-title', settings.shopengine_title_margin, ( (val) => (`
+        margin: ${val.top || 0}px ${val.right || 0}px ${val.bottom || 0}px ${val.left || 0}px;
+    `))
+    );
 
     cssHelper.add('.shopengine-product-category-lists .product-category-title:hover , .shopengine-product-category-lists .shopengine-category-items:hover .product-category-list-title', settings.shopengine_title_hover_color, (val) => (`
         color: ${val};
@@ -171,7 +168,7 @@ const Style = ({ settings, cssHelper }) => {
     `))
     
     cssHelper.add('.shopengine-product-category-lists .cat-count', settings.shopengine_category_title_margin, (val) => (`
-        margin: ${getObjectValues(val).split(',').join(' ')};
+        margin: ${val.top || 0}px ${val.right || 0}px ${val.bottom || 0}px ${val.left || 0}px;
     `));
 
     cssHelper.add('.shopengine-product-category-lists .cat-count:hover', settings.shopengine_category_title_hover_color, (val) => (`

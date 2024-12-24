@@ -206,7 +206,7 @@
         "responsive": true,
         "default": {
             "desktop": {
-                "top": "0",
+                "top": "0px",
                 "right": "15px",
                 "bottom": "17px",
                 "left": "15px"

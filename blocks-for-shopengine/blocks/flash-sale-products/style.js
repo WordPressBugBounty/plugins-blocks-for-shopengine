@@ -17,7 +17,7 @@ const Style = ({settings, breakpoints, cssHelper})=>{
     `, settings.shopengine_layout_product_col_gap, (val) => {
         return (
             `
-            column-gap : ${val};
+            column-gap : ${val}px;
 
             `
         )
@@ -29,7 +29,7 @@ const Style = ({settings, breakpoints, cssHelper})=>{
     `, settings.shopengine_layout_product_row_gap, (val) => {
         return (
             `
-            row-gap : ${val};
+            row-gap : ${val}px;
 
             `
         )
@@ -90,7 +90,7 @@ const Style = ({settings, breakpoints, cssHelper})=>{
     `, settings.shopengine_product_image_height, (val) => {
         return (
             `
-            height : ${val};
+            height : ${val}px;
 
             `
         )

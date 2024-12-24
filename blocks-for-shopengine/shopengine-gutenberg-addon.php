@@ -3,7 +3,7 @@
  * Plugin Name: Blocks for ShopEngine - Woocommerce Builder
  * Plugin URI:  https://wpmet.com/plugin/shopengine
  * Description: ShopEngine Gutenberg Addon is the most-complete WooCommerce template builder for Gutenburg. It helps you build and customize the single product page, cart page, archive page, checkout page, order page, my account page, and thank-you page from scratch. It also packed with product comparison, wishlist, quick view, and variation swatches etc.
- * Version: 2.4.0
+ * Version: 2.4.1
  * Author: Wpmet
  * Author URI:  https://wpmet.com
  * Text Domain: shopengine-gutenberg-addon
@@ -19,7 +19,7 @@ defined('ABSPATH') || exit;
 	final class Shopengine_Gutenberg_Addon {
 
 		public static function version() {
-			return '2.4.0';
+			return '2.4.1';
 		}
 
 

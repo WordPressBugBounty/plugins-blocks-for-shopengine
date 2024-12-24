@@ -1,4 +1,12 @@
 {
+    "shopengine_products_tab_start": {
+        "type": "TabContainer",
+        "label": "Main"
+    },
+    "shopengine_products_setting_start": {
+        "type": "TabControl",
+        "label": "Content"
+    },
     "shopengine_section_meta_content_start": {
         "type": "PanelBody",
         "label": "Settings"
@@ -44,6 +52,13 @@
     },
     "shopengine_section_meta_content_end": {
         "type": "PanelBody"
+    },
+    "shopengine_products_setting_end": {
+        "type": "TabControl"
+    },
+    "shopengine_products_list_start": {
+        "type": "TabControl",
+        "label": "Style"
     },
     "style_start": {
         "type": "PanelBody",
@@ -108,12 +123,12 @@
         "control": {
             "field": "__experimentalBoxControl",
             "props": {
-                "label": "padding",
+                "label": "Padding (px)",
                 "values": {
-                    "top": "0",
-                    "left": "0",
-                    "right": "0",
-                    "bottom": "0"
+                    "top": "0px",
+                    "left": "0px",
+                    "right": "0px",
+                    "bottom": "0px"
                 }
             }
         },
@@ -121,10 +136,10 @@
         "responsive": true,
         "default": {
             "desktop": {
-                "top": "0",
-                "right": "0",
+                "top": "0px",
+                "right": "0px",
                 "bottom": "8px",
-                "left": "0"
+                "left": "0px"
             }
         }
     },
@@ -365,5 +380,12 @@
     },
     "style_end": {
         "type": "PanelBody"
+    },
+    "shopengine_products_list_end": {
+        "type": "TabControl"
+    },
+    "shopengine_products_tab_end": {
+        "type": "TabContainer",
+        "label": "Main"
     }
 }

@@ -326,13 +326,7 @@ class Notice{
                     <?php echo (empty($this->title) ? '' : sprintf('<div class="notice-main-title notice-vert-space">%s</div>', esc_html($this->title))); ?>
 
                     <div class="notice-message notice-vert-space">
-                        <?php 
-                        if ( method_exists('\ShopEngine\Utils\Helper', 'get_kses_array') ) {
-                            echo wp_kses($this->message, \ShopEngine\Utils\Helper::get_kses_array()); 
-                        }else{
-                            echo wp_kses_post($this->message);
-                        }
-                        ?>
+                        <?php echo wp_kses_post($this->message); ?>
                     </div>
 
                     <?php if(!empty($this->buttons)): ?>

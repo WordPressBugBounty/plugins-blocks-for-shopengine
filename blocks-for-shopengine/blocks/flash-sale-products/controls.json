@@ -102,53 +102,35 @@
         "ssr": true
     },
     "shopengine_layout_product_col_gap": {
-        "control": {
-            "field": "__experimentalUnitControl",
+      "control": {
+            "field": "RangeControl",
             "props": {
-                "isPressEnterToChange": true,
-                "isResetValueOnUnitChange": true,
-                "labelPosition": "top",
-                "label": "Column gap",
-                "max": 200,
+                "label": "Column Gap (px)",
                 "min": 0,
-                "step": 1,
-                "units": [
-                    {
-                        "value": "px",
-                        "label": "px",
-                        "default": 0
-                    }
-                ]
+                "max": 200,
+                "step": 1
             }
         },
+        "responsive": true,
         "type": "object",
         "default": {
-            "desktop": "0px"
+            "desktop": 16
         }
     },
     "shopengine_layout_product_row_gap": {
         "control": {
-            "field": "__experimentalUnitControl",
+            "field": "RangeControl",
             "props": {
-                "isPressEnterToChange": true,
-                "isResetValueOnUnitChange": true,
-                "labelPosition": "top",
-                "label": "Row gap",
-                "max": 200,
+                "label": "Row Gap (px)",
                 "min": 0,
-                "step": 1,
-                "units": [
-                    {
-                        "value": "px",
-                        "label": "px",
-                        "default": 0
-                    }
-                ]
+                "max": 200,
+                "step": 1
             }
         },
+        "responsive": true,
         "type": "object",
         "default": {
-            "desktop": "0px"
+            "desktop": 16
         }
     },
     "shopengine_layout_content_end": {
@@ -380,27 +362,18 @@
     },
     "shopengine_product_image_height": {
         "control": {
-            "field": "__experimentalUnitControl",
+            "field": "RangeControl",
             "props": {
-                "isPressEnterToChange": true,
-                "isResetValueOnUnitChange": true,
-                "labelPosition": "top",
-                "label": "Height",
-                "max": 1000,
+                "label": "Height (px)",
                 "min": 0,
-                "step": 1,
-                "units": [
-                    {
-                        "value": "px",
-                        "label": "px",
-                        "default": 0
-                    }
-                ]
+                "max": 500,
+                "step": 1
             }
         },
+        "responsive": true,
         "type": "object",
         "default": {
-            "desktop": "auto"
+            "desktop": 250
         }
     },
     "shopengine_product_image_size": {

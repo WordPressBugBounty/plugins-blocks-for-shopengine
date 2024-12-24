@@ -4,6 +4,10 @@ const Style = ({settings, breakpoints, cssHelper})=>{
    const getObjectValues = (obj) => {
        return [...Object.values(obj)].toString();
    }
+
+   const getObjectValuesForWidth = (obj) => {
+      return [...Object.values(obj)].join(' ');
+  }
    const getShadowValues = (obj) => {
        const position = obj.position ==='inset' ? obj.position : ''
        let propSet = getObjectValues(Object.fromEntries(Object.entries(obj).slice(1, Object.keys(obj).length - 1)));
@@ -17,7 +21,7 @@ const Style = ({settings, breakpoints, cssHelper})=>{
        border-color: ${val.hex};
     `))
     .add('.woocommerce-tabs ul.tabs', settings.shopengine_nav_border_width, (val)=>(`         
-       border-width: ${getObjectValues(val)};
+       border-width: ${getObjectValuesForWidth(val)};
     `))
     .add('.woocommerce-tabs ul.tabs', settings.shopengine_nav_border_type, (val)=>(`         
        border-style: ${val};
@@ -35,7 +39,7 @@ const Style = ({settings, breakpoints, cssHelper})=>{
        word-spacing: ${val}px;
     `))
     .add('.woocommerce-tabs ul.tabs li a',settings.shopengine_nav_transform, (val)=>(`         
-       text-transform: ${val}px;
+       text-transform: ${val};
     `))
     .add('.woocommerce-tabs ul.tabs li a',settings.shopengine_nav_font_weight, (val)=>(`         
        font-weight: ${val};
@@ -47,13 +51,13 @@ const Style = ({settings, breakpoints, cssHelper})=>{
        background: ${val.hex};
     `))
     .add('.woocommerce-tabs ul.tabs li a',settings.shopengine_nav_normal_border_color, (val)=>(`         
-    border-color: ${val.hex};
+         border-color: ${val.hex} !important;
     `))
     .add('.woocommerce-tabs ul.tabs li a',settings.shopengine_nav_normal_border_type, (val)=>(`         
-       border-style: ${val};
+       border-style: ${val} !important;
     `))
     .add('.woocommerce-tabs ul.tabs li a',settings.shopengine_nav_normal_border_width, (val)=>(`         
-       border-width: ${getObjectValues(val)};
+       border-width: ${val}px !important;
     `))
     .add('.woocommerce-tabs ul.tabs li a',settings.shopengine_nav_item_padding, (val)=>(`         
        padding: ${getObjectValues(val).split(',').join(' ')};
@@ -70,7 +74,7 @@ const Style = ({settings, breakpoints, cssHelper})=>{
     `))
     .add(`.woocommerce-tabs ul.tabs li.active a,
     .woocommerce-tabs ul.tabs li:hover a`,settings.shopengine_nav_hover_border_color, (val)=>(`         
-       border-color: ${val.hex};
+       border-color: ${val.hex} !important;
     `))
     .add('div.shopengine-product-tabs div.woocommerce-tabs .wc-tabs .shopengine-tabs-line',settings.shopengine_nav_indicator_color, (val)=>(`         
        border-color: ${val.hex};

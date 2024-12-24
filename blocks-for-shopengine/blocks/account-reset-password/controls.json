@@ -576,10 +576,10 @@
             "responsive": false,
             "default": {
                 "desktop": {
-                    "top": "",
-                    "right": "",
-                    "bottom": "",
-                    "left": ""
+                    "top": "0px",
+                    "right": "0px",
+                    "bottom": "0px",
+                    "left": "0px"
                 }
             }
         },
@@ -602,10 +602,10 @@
             "responsive": false,
             "default": {
                 "desktop": {
-                    "top": "",
-                    "right": "",
-                    "bottom": "",
-                    "left": ""
+                    "top": "0px",
+                    "right": "0px",
+                    "bottom": "0px",
+                    "left": "0px"
                 }
             }
         },
@@ -1158,10 +1158,10 @@
             "responsive": true,
             "default": {
                 "desktop": {
-                    "top": "",
-                    "right": "",
-                    "bottom": "",
-                    "left": ""
+                    "top": "0px",
+                    "right": "0px",
+                    "bottom": "0px",
+                    "left": "0px"
                 }
             }
         },
@@ -1184,10 +1184,10 @@
             "responsive": true,
             "default": {
                 "desktop": {
-                    "top": "",
-                    "right": "",
-                    "bottom": "",
-                    "left": ""
+                    "top": "0px",
+                    "right": "0px",
+                    "bottom": "0px",
+                    "left": "0px"
                 }
             }
         },

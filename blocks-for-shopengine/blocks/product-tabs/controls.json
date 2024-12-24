@@ -210,7 +210,7 @@
         "type": "object",
         "default": {
             "desktop": {
-                "hex": "transparent"
+                "hex": "null"
             }
         }
     },
@@ -249,26 +249,26 @@
         },
         "type": "object",
         "default": {
-            "desktop": "solid",
-            "tablet": "solid",
-            "mobile": "solid"
+            "desktop": "none",
+            "tablet": "none",
+            "mobile": "none"
         }
     },
     "shopengine_nav_normal_border_width": {
         "control": {
-            "field": "__experimentalBoxControl",
+            "field": "RangeControl",
+            "label": "Border Width (px)",
             "props": {
-                "label": "Border Width"
+                "min": 0,
+                "max": 100
             }
         },
+        "responsive": true,
         "type": "object",
         "default": {
-            "desktop": {
-                "top": "0",
-                "right": "0",
-                "bottom": "0",
-                "left": "0"
-            }
+            "desktop": 1,
+            "tablet": 1,
+            "mobile": 1
         }
     },
     "shopengine_nav_normal_border_color": {
@@ -280,7 +280,7 @@
         "type": "object",
         "default": {
             "desktop": {
-                "hex": "transparent"
+                "hex": "#A0A0A0"
             }
         }
     },

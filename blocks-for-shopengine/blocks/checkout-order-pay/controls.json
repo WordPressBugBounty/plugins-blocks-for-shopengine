@@ -1929,7 +1929,7 @@
             "control": {
                 "field": "__experimentalBoxControl",
                 "props": {
-                    "label": "Padding (px)",
+                    "label": "Description Padding (px)",
                     "allowReset": true,
                     "units": [
                         {
@@ -1944,10 +1944,10 @@
             "responsive": true,
             "default": {
                 "desktop": {
-                    "top": "",
-                    "right": "",
-                    "bottom": "",
-                    "left": ""
+                    "top": "0px",
+                    "right": "0px",
+                    "bottom": "0px",
+                    "left": "0px"
                 }
             }
         },
@@ -1955,7 +1955,7 @@
             "control": {
                 "field": "__experimentalBoxControl",
                 "props": {
-                    "label": "Margin (px)",
+                    "label": "Description Margin (px)",
                     "allowReset": true,
                     "units": [
                         {
@@ -1970,10 +1970,10 @@
             "responsive": true,
             "default": {
                 "desktop": {
-                    "top": "",
-                    "right": "",
-                    "bottom": "",
-                    "left": ""
+                    "top": "0px",
+                    "right": "0px",
+                    "bottom": "0px",
+                    "left": "0px"
                 }
             }
         },
@@ -2462,24 +2462,22 @@
                 "field": "__experimentalBoxControl",
                 "props": {
                     "label": "Padding (px)",
-                    "allowReset": true,
-                    "units": [
-                        {
-                            "label": "px",
-                            "value": "px",
-                            "default": 0
-                        }
-                    ]
+                    "values": {
+                        "top": "0px",
+                        "right": "0px",
+                        "bottom": "0px",
+                        "left": "0px"
+                    }
                 }
             },
             "type": "object",
             "responsive": true,
             "default": {
                 "desktop": {
-                    "top": "",
-                    "right": "",
-                    "bottom": "",
-                    "left": ""
+                    "top": "0px",
+                    "right": "0px",
+                    "bottom": "0px",
+                    "left": "0px"
                 }
             }
         },
@@ -2488,24 +2486,22 @@
                 "field": "__experimentalBoxControl",
                 "props": {
                     "label": "Margin (px)",
-                    "allowReset": true,
-                    "units": [
-                        {
-                            "label": "px",
-                            "value": "px",
-                            "default": 0
-                        }
-                    ]
+                    "values": {
+                        "top": "0px",
+                        "right": "0px",
+                        "bottom": "0px",
+                        "left": "0px"
+                    }
                 }
             },
             "type": "object",
             "responsive": true,
             "default": {
                 "desktop": {
-                    "top": "",
-                    "right": "",
-                    "bottom": "",
-                    "left": ""
+                    "top": "0px",
+                    "right": "0px",
+                    "bottom": "0px",
+                    "left": "0px"
                 }
             }
         },

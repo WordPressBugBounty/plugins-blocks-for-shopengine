@@ -2,7 +2,7 @@
 Contributors: xpeedstudio, Ataurr
 Tags: WooCommerce Builder, Woo builder, Gutenberg, WooCommerce, WooCommerce Gutenberg,  WooCommerce Product,
 Tested up to: 6.7
-Stable tag: 2.4.0
+Stable tag: 2.4.1
 Requires PHP: 7.4
 License:  GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.txt
@@ -129,6 +129,28 @@ If you like using ShopEngine WooCommerce Builder, then consider checking out our
 Visit [wpmet](https://wpmet.com) to learn more about how to get the best of WordPress with [Tutorial, Tips & Tricks](https://wpmet.com/blog)!
 
 == Changelog ==
+
+Version: 2.4.1 // 15-12-24
+Added: Block controls hide/show conditionally.
+Improved: Product image block.
+Improved: Checkout order pay block.
+Improved: Account order details block.
+Improved: Global margin and padding controls.
+Improved: Not holiday option in Vacation module.
+Fixed: Banner notice text issue.
+Fixed: Badge module attachment selection and design issue.
+Fixed: Product meta block padding control issue.
+Fixed: Archive product quick checkout button ordering issue.
+Fixed: Product Category list block controls issue.
+Fixed: Flash sale block controls issue.
+Fixed: Product tabs block controls issue.
+Fixed: Checkout form billing block controls issue.
+Fixed: Checkout form login block controls issue.
+Fixed: Checkout order pay and order review blocks controls issue.
+Fixed: Lost password form block controls issue.
+Fixed: Empty cart redirect issue.
+Fixed: Border control component design issue.
+Fixed: Filterable product list block controls issue.
 
 Version: 2.4.0 // 14-10-24
 Improved: All the WooCommerce pages edit experience on the Gutenberg blocks editor.

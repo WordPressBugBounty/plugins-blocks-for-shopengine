@@ -25,7 +25,7 @@ foreach ($vacation_days as $vacation_period) {
 }
 
 if ($vacation_status === 'active' && !$in_vacation_period && !in_array(strtolower(date('D')), $regular_off_days)) :
-    esc_html_e('Today is not holiday', 'shopengine-gutenberg-addon');
+    esc_html_e('We are open. Happy Shopping!', 'shopengine-gutenberg-addon');
 elseif ($vacation_status === 'inactive') :
     esc_html_e('Please active shopengine vacation module', 'shopengine-gutenberg-addon');
 elseif($vacation_status === 'active'):

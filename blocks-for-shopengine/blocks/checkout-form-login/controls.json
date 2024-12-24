@@ -51,7 +51,7 @@
             },
             "type": "object",
             "default": {
-                "desktop": "#F5F5F5"
+                "desktop": ""
             }   
         },
         "shopengine_form_login_title_typography_start": {
@@ -70,9 +70,9 @@
                 "responsive": true,
                 "type": "object",
                 "default": {
-                    "desktop": 20,
-                    "tablet": 15,
-                    "mobile": 15
+                    "desktop": 16,
+                    "tablet": 16,
+                    "mobile": 16
                 }
             },
             "shopengine_form_login_title_font_weight": {
@@ -260,7 +260,7 @@
             },
             "type": "object",
             "default": {
-                "desktop": "solid"
+                "desktop": "none"
             }
         },
         "shopengine_form_login_title_border_width": {
@@ -280,10 +280,10 @@
             "responsive": false,
             "default": {
                 "desktop": {
-                    "top": "1px",
-                    "right": "1px",
-                    "bottom": "1px",
-                    "left": "1px"
+                    "top": "0px",
+                    "right": "0px",
+                    "bottom": "0px",
+                    "left": "0px"
                 }
             }
         },
@@ -326,7 +326,7 @@
             "control": {
                 "field": "__experimentalBoxControl",
                 "props": {
-                    "label": "Padding",
+                    "label": "Padding (px)",
                     "values": {
                         "top": "0px",
                         "right": "0px",
@@ -339,10 +339,10 @@
             "responsive": false,
             "default": {
                 "desktop": {
-                    "top": "15px",
-                    "right": "30px",
-                    "bottom": "15px",
-                    "left": "30px"
+                    "top": "0px",
+                    "right": "0px",
+                    "bottom": "0px",
+                    "left": "0px"
                 }
             }
         },
@@ -350,7 +350,7 @@
             "control": {
                 "field": "__experimentalBoxControl",
                 "props": {
-                    "label": "Margin",
+                    "label": "Margin (px)",
                     "values": {
                         "top": "0px",
                         "right": "0px",
@@ -2099,10 +2099,10 @@
             "responsive": false,
             "default": {
                 "desktop": {
-                    "top": "",
-                    "right": "",
-                    "bottom": "",
-                    "left": ""
+                    "top": "0px",
+                    "right": "0px",
+                    "bottom": "0px",
+                    "left": "0px"
                 }
             }
         },
@@ -2119,7 +2119,7 @@
             "control": {
                 "field": "__experimentalBoxControl",
                 "props": {
-                    "label": "Padding"
+                    "label": "Padding (px)"
                 }
             },
             "type": "object",

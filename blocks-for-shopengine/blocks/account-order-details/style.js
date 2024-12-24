@@ -141,7 +141,7 @@ const Style = ({ settings, breakpoints, cssHelper }) => {
       settings.shopengine_account_order_heading_margin,
       (val) =>
         `
-          border" 0px;
+          border: 0px;
           margin: ${val.top} ${val.right} ${val.bottom} ${val.left};
           `
     );

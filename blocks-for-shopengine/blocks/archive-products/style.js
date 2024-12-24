@@ -251,6 +251,11 @@ const Style = ({ settings, breakpoints, cssHelper }) => {
                     order: ${idx};
                 `));
             break;
+            case "quick_checkout":
+                cssHelper.add(`.shopengine-archive-products .shopengine-quick-checkout-button`, {}, () => (`
+                    order: ${idx};
+                `));
+            break;
         }
     })
 

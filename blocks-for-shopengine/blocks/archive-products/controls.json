@@ -328,6 +328,10 @@
             {
               "id": "comparison",
               "label": "Comparison"
+            },
+            {
+              "id": "quick_checkout",
+              "label": "Quick Checkout"
             }
           ]
         }
@@ -350,6 +354,10 @@
           {
             "id": "comparison",
             "label": "Comparison"
+          },
+          {
+            "id": "quick_checkout",
+            "label": "Quick Checkout"
           }
         ]
       },
@@ -749,16 +757,6 @@
         "desktop": false
       }
     },
-    "image_height_notice": {
-      "control": {
-        "field": "Notice",
-        "props": {
-          "children": "If you checked Use image height then it will work",
-          "isDismissible": false
-        }
-      },
-      "type": "object"
-    },
     "shopengine_image_height": {
       "control": {
         "field": "RangeControl",
@@ -773,6 +771,9 @@
       "type": "object",
       "default": {
         "desktop": 255
+      },
+      "condition": {
+        "shopengine_image_height_switch": true
       }
     },
     "shopengine_image_padding": {

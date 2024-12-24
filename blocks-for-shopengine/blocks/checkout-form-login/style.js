@@ -6,27 +6,27 @@ const Style = ({settings, breakpoints, cssHelper}) => {
     
     } = settings;
 
-    cssHelper.add('.shopengine-checkout-form-login .woocommerce-form-login-toggle .woocommerce-info',shopengine_form_login_title_color, (val) => {
+    cssHelper.add('.shopengine-checkout-form-login .woocommerce-form-login-toggle .wc-block-components-notice-banner__content',shopengine_form_login_title_color, (val) => {
         return `
             color: ${val};
         `
     });
-    cssHelper.add('.shopengine-checkout-form-login .woocommerce-form-login-toggle .woocommerce-info .showlogin',shopengine_form_login_title_link_color, (val) => {
+    cssHelper.add('.shopengine-checkout-form-login .woocommerce-form-login-toggle .wc-block-components-notice-banner__content .showlogin',shopengine_form_login_title_link_color, (val) => {
         return `
             color: ${val};
         `
     });
-    cssHelper.add('.shopengine-checkout-form-login .woocommerce-form-login-toggle .woocommerce-info',shopengine_form_login_title_bg_color, (val) => {
+    cssHelper.add('.shopengine-checkout-form-login .woocommerce-form-login-toggle .wc-block-components-notice-banner__content',shopengine_form_login_title_bg_color, (val) => {
         return `
             background-color: ${val};
         `
     });
-    cssHelper.add('.shopengine-checkout-form-login .woocommerce-form-login-toggle .woocommerce-info', shopengine_form_login_title_font_size, (val) => {
+    cssHelper.add('.shopengine-checkout-form-login .woocommerce-form-login-toggle .wc-block-components-notice-banner__content', shopengine_form_login_title_font_size, (val) => {
         return `
             font-size: ${val}px;
         `
     });
-    cssHelper.add('.shopengine-checkout-form-login .woocommerce-form-login-toggle .woocommerce-info', shopengine_form_login_title_font_weight, (val) => {
+    cssHelper.add('.shopengine-checkout-form-login .woocommerce-form-login-toggle .wc-block-components-notice-banner__content', shopengine_form_login_title_font_weight, (val) => {
         return `
             font-weight: ${val};
         `
@@ -41,39 +41,39 @@ const Style = ({settings, breakpoints, cssHelper}) => {
             text-decoration: ${val};
         `
     });
-    cssHelper.add('.shopengine-checkout-form-login .woocommerce-form-login-toggle .woocommerce-info', shopengine_form_login_title_line_height, (val) => {
+    cssHelper.add('.shopengine-checkout-form-login .woocommerce-form-login-toggle .wc-block-components-notice-banner__content', shopengine_form_login_title_line_height, (val) => {
         return `
             line-height: ${val}px;
         `
     });
-    cssHelper.add('.shopengine-checkout-form-login .woocommerce-form-login-toggle .woocommerce-info', shopengine_form_login_title_word_spacing, (val) => {
+    cssHelper.add('.shopengine-checkout-form-login .woocommerce-form-login-toggle .wc-block-components-notice-banner__content', shopengine_form_login_title_word_spacing, (val) => {
         return `
             word-spacing: ${val}px;
         `
     });
-    cssHelper.add('.shopengine-checkout-form-login .woocommerce-form-login-toggle .woocommerce-info',shopengine_form_login_title_border_style, (val) => {
+    cssHelper.add('.shopengine-checkout-form-login .woocommerce-form-login-toggle .wc-block-components-notice-banner__content',shopengine_form_login_title_border_style, (val) => {
         return `
             border: ${val};
         `
     });
-    cssHelper.add('.shopengine-checkout-form-login .woocommerce-form-login-toggle .woocommerce-info',shopengine_form_login_title_border_width, (val) => {
+    cssHelper.add('.shopengine-checkout-form-login .woocommerce-form-login-toggle .wc-block-components-notice-banner__content',shopengine_form_login_title_border_width, (val) => {
         return `
             border-width : ${val.top} ${val.right} ${val.bottom} ${val.left};
         `
     });
-    cssHelper.add('.shopengine-checkout-form-login .woocommerce-form-login-toggle .woocommerce-info',shopengine_form_login_title_border_color, (val) => {
+    cssHelper.add('.shopengine-checkout-form-login .woocommerce-form-login-toggle .wc-block-components-notice-banner__content',shopengine_form_login_title_border_color, (val) => {
         return `
             border-color : ${val};
         `
     });
-    cssHelper.add('.shopengine-checkout-form-login >.woocommerce-form-login-toggle >.woocommerce-info',shopengine_form_login_title_padding, (val) => {
+    cssHelper.add('.shopengine-checkout-form-login .woocommerce-form-login-toggle .wc-block-components-notice-banner__content',shopengine_form_login_title_padding, (val) => {
         return `
             padding : ${val.top} ${val.right} ${val.bottom} ${val.left};
         `
     });
-    cssHelper.add('.shopengine-checkout-form-login .woocommerce-form-login-toggle .woocommerce-info',shopengine_form_login_title_margin, (val) => {
+    cssHelper.add('.shopengine-checkout-form-login .woocommerce-form-login-toggle .wc-block-components-notice-banner__content',shopengine_form_login_title_margin, (val) => {
         return `
-            margin : ${val.top} ${val.right} ${val.bottom} ${val.left};
+            margin : ${val.top}px ${val.right}px ${val.bottom}px ${val.left}px;
         `
     });
     cssHelper.add('.shopengine-checkout-form-login .shopengine-checkout-login-form',shopengine_form_login_container_border_style, (val) => {
@@ -403,12 +403,12 @@ const Style = ({settings, breakpoints, cssHelper}) => {
     });
     cssHelper.add('.shopengine-checkout-form-login .shopengine-checkout-login-form .lost_password a ',shopengine_form_login_lost_password_btn_padding, (val) => {
         return `
-            padding: ${val.top} ${val.right} ${val.bottom} ${val.left};
+            padding: ${val.top}px ${val.right}px ${val.bottom}px ${val.left}px;
         `
     });
     cssHelper.add('.shopengine-checkout-form-login .shopengine-checkout-login-form .lost_password a ',shopengine_form_login_lost_password_btn_margin, (val) => {
         return `
-            margin: ${val.top} ${val.right} ${val.bottom} ${val.left};
+            margin: ${val.top}px ${val.right}px ${val.bottom}px ${val.left}px;
         `
     });
     

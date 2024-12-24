@@ -339,17 +339,17 @@
             "control":{
                 "field": "__experimentalBoxControl",
                 "props":{
-                    "label": "Margin"
+                    "label": "Margin (px)"
                 }
             },
             "responsive": true,
             "type": "object",
             "default": {
                 "desktop": {
-                    "top":"",
-                    "right":"",
-                    "bottom":"",
-                    "left":""
+                    "top":"0px",
+                    "right":"0px",
+                    "bottom":"0px",
+                    "left":"0px"
                 }
             }
         },

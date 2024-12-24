@@ -148,33 +148,6 @@
             "desktop": ""
         }
     },
-    "shopengine_image_border_radius": {
-        "control": {
-            "field": "__experimentalUnitControl",
-            "props": {
-                "label": "Border Radius",
-                "isPressEnterToChange": true,
-                "min": 0,
-                "max": 100,
-                "units": [
-                    {
-                        "value": "px",
-                        "label": "px",
-                        "default": 0
-                    },
-                    {
-                        "value": "%",
-                        "label": "%",
-                        "default": 0
-                    }
-                ]
-            }
-        },
-        "type": "object",
-        "default": {
-            "desktop": ""
-        }
-    },
     "image_subsection_divider": {
         "control": {
             "field": "__experimentalDivider",
@@ -214,9 +187,9 @@
         "responsive": true,
         "type": "object",
         "default": {
-            "desktop": "20%",
-            "tablet": "25%",
-            "mobile": "25%"
+            "desktop": "100%",
+            "tablet": "100%",
+            "mobile": "100%"
         }
     },
     "shopengine_thumbs_border_style": {
@@ -252,7 +225,6 @@
                 ]
             }
         },
-        "responsive": false,
         "type": "object",
         "default": {
             "desktop": "none"
@@ -261,24 +233,36 @@
 
     "shopengine_thumbs_border_width": {
         "control": {
-            "field": "__experimentalBoxControl",
+            "field": "RangeControl",
             "props": {
                 "label": "Border Width(px)",
-                "allowReset": true
+                "min": 0,
+                "max": 200,
+                "step": 1
             }
         },
-        "type": "object",
         "responsive": true,
+        "type": "object",
         "default": {
-            "desktop": {
-                "top": "",
-                "right": "",
-                "bottom": "",
-                "left": ""
-            }
+            "desktop": 1
         }
     },
-    
+    "shopengine_image_border_radius": {
+        "control": {
+            "field": "RangeControl",
+            "props": {
+                "label": "Border Radius (px)",
+                "min": 0,
+                "max": 200,
+                "step": 1
+            }
+        },
+        "responsive": true,
+        "type": "object",
+        "default": {
+            "desktop": 0
+        }
+    },
     "shopengine_thumbs_border_color": {
         "control": {
             "field": "ColorPalette",
@@ -306,65 +290,6 @@
             "desktop": "black"
         }
     },
-    "shopengine_thumbs_border_radius": {
-        "control": {
-            "field": "__experimentalUnitControl",
-            "props": {
-                "label": "Border Radius",
-                "isPressEnterToChange": true,
-                "max":100,
-                "min":0,
-                "units": [
-                    {
-                        "value": "px",
-                        "label": "px",
-                        "default": 0
-                    },
-                    {
-                        "value": "%",
-                        "label": "%",
-                        "default": 0
-                    }
-                ]
-            }
-        },
-        "type": "object",
-        "default": {
-            "desktop": ""
-        }
-    },
-    "shopengine_gallery_thumbs_row_gap": {
-        "control": {
-            "field": "RangeControl",
-            "props": {
-                "label": "Row Gap (px)",
-                "min": 0,
-                "max": 100
-            }
-        },
-        "responsive": false,
-        "type": "object",
-        "default": {
-            "desktop": 5
-        }
-    },
-    
-    "shopengine_gallery_thumbs_column_gap": {
-        "control": {
-            "field": "RangeControl",
-            "props": {
-                "label": "Column Gap (px)",
-                "min": 0,
-                "max": 100
-            }
-        },
-        "responsive": false,
-        "type": "object",
-        "default": {
-            "desktop": 5
-        }
-    },
-
     "shopengine_thumbs_divider": {
         "control": {
             "field": "__experimentalDivider",
@@ -372,22 +297,6 @@
         },
         "type": "object"
     },
-    "shopengine_thumbs_margin": {
-        "control": {
-            "field": "RangeControl",
-            "props": {
-               "label": "Margin Top (px)",
-                "min": 0,
-                "max": 100
-            }
-        },
-        "responsive": true,
-        "type": "object",
-        "default": {
-            "desktop": 5
-        }
-    },
-
     "image_section_end": {
         "type": "PanelBody"
     },
@@ -561,6 +470,9 @@
         "type": "object",
         "default": {
             "desktop": 20
+        },
+        "condition": {
+            "shopengine_lightbox_icon_position": "custom"
         }
     },
     "shopengine_lightbox_icon_position_y_axis": {
@@ -576,6 +488,9 @@
         "type": "object",
         "default": {
             "desktop": 20
+        },
+        "condition": {
+            "shopengine_lightbox_icon_position": "custom"
         }
     },
     "icon_section_end": {
@@ -832,6 +747,9 @@
         "type": "object",
         "default": {
             "desktop": 20
+        },
+        "condition": {
+            "shopengine_flash_sale_position": "custom"
         }
     },
     "shopengine_flash_sale_position_y_axis": {
@@ -847,6 +765,9 @@
         "type": "object",
         "default": {
             "desktop": 20
+        },
+        "condition": {
+            "shopengine_flash_sale_position": "custom"
         }
     },
     "badge_section_end": {

@@ -39,7 +39,7 @@ class Block_Config
 				'keywords'      => [
 					'woocommerce', 'shopengine', 'cart'
 				],
-				'territory' => ['cart', 'empty_cart']
+				'territory' => ['cart', 'empty-cart']
 			],
 
 			'cart-totals' => [
@@ -50,7 +50,7 @@ class Block_Config
 				'keywords'      => [
 					'woocommerce', 'shopengine', 'cart total'
 				],
-				'territory' => ['cart', 'empty_cart']
+				'territory' => ['cart', 'empty-cart']
 			],
 
 			'checkout-payment' => [
@@ -94,7 +94,7 @@ class Block_Config
 				'keywords'      => [
 					'return', 'return to shop', 'shop', 'shopengine'
 				],
-				'territory' => ['cart', 'single', 'checkout', 'quick_checkout', 'empty_cart']
+				'territory' => ['cart', 'single', 'checkout', 'quick_checkout', 'empty-cart']
 			],
 
 			'filter-orderby'	=> [
