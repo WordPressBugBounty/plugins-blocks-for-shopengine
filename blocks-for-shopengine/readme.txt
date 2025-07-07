@@ -1,8 +1,8 @@
 === ShopEngine Gutenberg WooCommerce Builder Blocks Addon - All in One WooCommerce Solution ===
 Contributors: xpeedstudio, Ataurr
 Tags: WooCommerce Builder, Woo builder, Gutenberg, WooCommerce, WooCommerce Gutenberg,  WooCommerce Product,
-Tested up to: 6.7
-Stable tag: 2.4.1
+Tested up to: 6.8
+Stable tag: 2.4.2
 Requires PHP: 7.4
 License:  GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.txt
@@ -129,6 +129,10 @@ If you like using ShopEngine WooCommerce Builder, then consider checking out our
 Visit [wpmet](https://wpmet.com) to learn more about how to get the best of WordPress with [Tutorial, Tips & Tricks](https://wpmet.com/blog)!
 
 == Changelog ==
+Version: 2.4.2 // 07-07-25
+Fixed: Clickable issue in edit mode on the block editor.
+Fixed: Error triggered when loading the text domain.
+Fixed: Conflict issue with Elementor.
 
 Version: 2.4.1 // 15-12-24
 Added: Block controls hide/show conditionally.

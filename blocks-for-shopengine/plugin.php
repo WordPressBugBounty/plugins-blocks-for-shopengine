@@ -39,6 +39,13 @@ class Plugin {
 		                           ->set_block_root_path($this->dir() . 'blocks/')
 		                           ->set_block_root_url($this->url() . 'blocks/');
 
+		add_filter('doing_it_wrong_trigger_error', function ($doing_it_wrong, $function_name) {
+			if ('_load_textdomain_just_in_time' === $function_name) {
+				return false;
+			}
+			return $doing_it_wrong;
+		}, 10, 2);
+
 		$conf = new \Shopengine_Gutenberg_Addon\Block_Config();
 
 		foreach($conf->get_active_block_list() as $key => $item) {
@@ -107,16 +114,18 @@ class Plugin {
 			);
 			// ./end For product gallery js support
 
-			wp_enqueue_script('gutenova-blocks', $this->url('assets/js/blocks/blocks.js'), [], \Shopengine_Gutenberg_Addon::version(), true);
-
-			wp_localize_script(
-				'gutenova-blocks',
-				'tplInfoObj',
-				[
-					'tpl_type' => $tpl_type,
-					'tpl_build_with' => $tpl_build_with,
-				]
-			);
+			if( !isset($_REQUEST['elementor-preview'])){
+				wp_enqueue_script('gutenova-blocks', $this->url('assets/js/blocks/blocks.js'), [], \Shopengine_Gutenberg_Addon::version(), true);
+	
+				wp_localize_script(
+					'gutenova-blocks',
+					'tplInfoObj',
+					[
+						'tpl_type' => $tpl_type,
+						'tpl_build_with' => $tpl_build_with,
+					]
+				);
+			}
 
 			// wp social plugin frontend css
 			wp_enqueue_style('xs-front-style', $this->url('assets/css/wp-social-frontend.css'), [], \Shopengine_Gutenberg_Addon::version());
