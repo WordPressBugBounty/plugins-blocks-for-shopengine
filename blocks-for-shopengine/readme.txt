@@ -2,7 +2,7 @@
 Contributors: xpeedstudio, Ataurr
 Tags: WooCommerce Builder, Woo builder, Gutenberg, WooCommerce, WooCommerce Gutenberg,  WooCommerce Product,
 Tested up to: 6.8
-Stable tag: 2.4.2
+Stable tag: 2.4.3
 Requires PHP: 7.4
 License:  GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.txt
@@ -129,6 +129,10 @@ If you like using ShopEngine WooCommerce Builder, then consider checking out our
 Visit [wpmet](https://wpmet.com) to learn more about how to get the best of WordPress with [Tutorial, Tips & Tricks](https://wpmet.com/blog)!
 
 == Changelog ==
+Version: 2.4.3 // 22-07-25
+New: QR Code block.
+New: Call for Price block.
+
 Version: 2.4.2 // 07-07-25
 Fixed: Clickable issue in edit mode on the block editor.
 Fixed: Error triggered when loading the text domain.

@@ -349,6 +349,32 @@ class Block_Config
 				],
 				'territory' => ['single', 'quick_view', 'quick_checkout']
 			],
+			'qr-code'	=>  [
+				'title'         => esc_html__('QR Code', 'shopengine-gutenberg-addon'),
+				'icon'          => ' shopengine-icon-grid-1',
+				'server_render' => true,
+				'category'      => 'shopengine-single',
+				'keywords'      => [
+					'woocommerce',
+					'shopengine',
+					'qr code',
+					'qr code'
+				],
+				'territory' => ['single', 'quick_view', 'quick_checkout']
+			],
+			'call-for-price'	=>  [
+				'title'         => esc_html__('Call For Price', 'shopengine-gutenberg-addon'),
+				'icon'          => ' gutenova-Return-To-Shop',
+				'server_render' => true,
+				'category'      => 'shopengine-single',
+				'keywords'      => [
+					'woocommerce',
+					'shopengine',
+					'call for price',
+					'call for price'
+				],
+				'territory' => ['single', 'quick_view', 'quick_checkout']
+			],
 
 			'breadcrumbs'	=>  [
 				'title'         => esc_html__('Breadcrumbs', 'shopengine-gutenberg-addon'),

@@ -2,10 +2,10 @@
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Blocks for ShopEngine - Woocommerce Builder 2.4.2\n"
+"Project-Id-Version: Blocks for ShopEngine - Woocommerce Builder 2.4.3\n"
 "Report-Msgid-Bugs-To: "
 "https://wordpress.org/support/plugin/blocks-for-shopengine\n"
-"POT-Creation-Date: 2025-07-07 08:23:55+00:00\n"
+"POT-Creation-Date: 2025-07-22 11:40:58+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -165,215 +165,223 @@ msgstr ""
 msgid "Add To Cart"
 msgstr ""
 
-#: block-config.php:354
+#: block-config.php:353
+msgid "QR Code"
+msgstr ""
+
+#: block-config.php:366
+msgid "Call For Price"
+msgstr ""
+
+#: block-config.php:380
 msgid "Breadcrumbs"
 msgstr ""
 
-#: block-config.php:365
+#: block-config.php:391
 msgid "Product Price"
 msgstr ""
 
-#: block-config.php:376
+#: block-config.php:402
 msgid "Product Image"
 msgstr ""
 
-#: block-config.php:387
+#: block-config.php:413
 msgid "Advanced Search"
 msgstr ""
 
-#: block-config.php:398
+#: block-config.php:424
 msgid "Product List"
 msgstr ""
 
-#: block-config.php:409
+#: block-config.php:435
 msgid "Product Tabs"
 msgstr ""
 
-#: block-config.php:420
+#: block-config.php:446
 msgid "Coupon Form"
 msgstr ""
 
-#: block-config.php:431
+#: block-config.php:457
 msgid "Filterable Product List"
 msgstr ""
 
-#: block-config.php:442
+#: block-config.php:468
 msgid "Archive Products"
 msgstr ""
 
-#: block-config.php:453
+#: block-config.php:479
 msgid "Cross Sells"
 msgstr ""
 
-#: block-config.php:464
+#: block-config.php:490
 msgid "Deal Products"
 msgstr ""
 
-#: block-config.php:475
+#: block-config.php:501
 msgid "Product Upsells"
 msgstr ""
 
-#: block-config.php:486
+#: block-config.php:512
 msgid "Related Products"
 msgstr ""
 
-#: block-config.php:497
+#: block-config.php:523
 msgid "Product Description"
 msgstr ""
 
-#: block-config.php:508
+#: block-config.php:534
 msgid "Product Sku"
 msgstr ""
 
-#: block-config.php:521
+#: block-config.php:547
 msgid "Shopengine Heading"
 msgstr ""
 
-#: block-config.php:532
+#: block-config.php:558
 msgid "Checkout Form Login"
 msgstr ""
 
-#: block-config.php:543
+#: block-config.php:569
 msgid "Archive View Mode"
 msgstr ""
 
-#: block-config.php:558 block-config.php:932
+#: block-config.php:584 block-config.php:958
 msgid "Order Thank You"
 msgstr ""
 
-#: block-config.php:569 block-config.php:922
+#: block-config.php:595 block-config.php:948
 msgid "Order Confirm"
 msgstr ""
 
-#: block-config.php:580 block-config.php:927
+#: block-config.php:606 block-config.php:953
 msgid "Order Details"
 msgstr ""
 
-#: block-config.php:591
+#: block-config.php:617
 msgid "Address details"
 msgstr ""
 
-#: block-config.php:602
+#: block-config.php:628
 msgid "My Account Form Login"
 msgstr ""
 
-#: block-config.php:613
+#: block-config.php:639
 msgid "Account Register Form"
 msgstr ""
 
-#: block-config.php:624
+#: block-config.php:650
 msgid "My Account Orders"
 msgstr ""
 
-#: block-config.php:635 block-config.php:872
+#: block-config.php:661 block-config.php:898
 msgid "Account Downloads"
 msgstr ""
 
-#: block-config.php:646
+#: block-config.php:672
 msgid "Account dashboard"
 msgstr ""
 
-#: block-config.php:657 block-config.php:867
+#: block-config.php:683 block-config.php:893
 msgid "Account Details"
 msgstr ""
 
-#: block-config.php:669 block-config.php:862
+#: block-config.php:695 block-config.php:888
 msgid "Account Address"
 msgstr ""
 
-#: block-config.php:681
+#: block-config.php:707
 msgid "Account Order Details"
 msgstr ""
 
-#: block-config.php:692 block-config.php:907
+#: block-config.php:718 block-config.php:933
 msgid "Categories"
 msgstr ""
 
-#: block-config.php:702 block-config.php:937
+#: block-config.php:728 block-config.php:963
 msgid "Currency Switcher"
 msgstr ""
 
-#: block-config.php:712 block-config.php:942
+#: block-config.php:738 block-config.php:968
 msgid "Flash Sale Products"
 msgstr ""
 
-#: block-config.php:723 block-config.php:947
+#: block-config.php:749 block-config.php:973
 msgid "Best Selling Product"
 msgstr ""
 
-#: block-config.php:733 block-config.php:952
+#: block-config.php:759 block-config.php:978
 msgid "Comparison Button"
 msgstr ""
 
-#: block-config.php:743 block-config.php:892
+#: block-config.php:769 block-config.php:918
 msgid "Account Navigation"
 msgstr ""
 
-#: block-config.php:753 block-config.php:887
+#: block-config.php:779 block-config.php:913
 msgid "Account Logout"
 msgstr ""
 
-#: block-config.php:763 block-config.php:967
+#: block-config.php:789 block-config.php:993
 msgid "Advanced Coupon"
 msgstr ""
 
-#: block-config.php:773
+#: block-config.php:799
 msgid "Vacation Notice"
 msgstr ""
 
-#: block-config.php:783
+#: block-config.php:809
 msgid "Product Size Charts"
 msgstr ""
 
-#: block-config.php:794 block-config.php:912
+#: block-config.php:820 block-config.php:938
 msgid "Product Filters"
 msgstr ""
 
-#: block-config.php:804 block-config.php:972
+#: block-config.php:830 block-config.php:998
 msgid "Avatar"
 msgstr ""
 
-#: block-config.php:814 block-config.php:977
+#: block-config.php:840 block-config.php:1003
 msgid "Checkout Order Pay"
 msgstr ""
 
-#: block-config.php:824 block-config.php:982
+#: block-config.php:850 block-config.php:1008
 msgid "Account Lost Password Form"
 msgstr ""
 
-#: block-config.php:834 block-config.php:987
+#: block-config.php:860 block-config.php:1013
 msgid "Account Reset Password Form"
 msgstr ""
 
-#: block-config.php:857
+#: block-config.php:883
 msgid "Account Dashboard"
 msgstr ""
 
-#: block-config.php:877
+#: block-config.php:903
 msgid "Account Form - Login"
 msgstr ""
 
-#: block-config.php:882
+#: block-config.php:908
 msgid "Account Form - Register"
 msgstr ""
 
-#: block-config.php:897
+#: block-config.php:923
 msgid "Account Order - Details"
 msgstr ""
 
-#: block-config.php:902
+#: block-config.php:928
 msgid "Account Orders"
 msgstr ""
 
-#: block-config.php:917
+#: block-config.php:943
 msgid "Thank You Address Details"
 msgstr ""
 
-#: block-config.php:957
+#: block-config.php:983
 msgid "Product Size Chart"
 msgstr ""
 
-#: block-config.php:962
+#: block-config.php:988
 msgid "Vacation"
 msgstr ""
 
@@ -1310,19 +1318,19 @@ msgstr ""
 msgid "Notice Logo"
 msgstr ""
 
-#: shopengine-gutenberg-addon.php:102
+#: shopengine-gutenberg-addon.php:109
 msgid "Shopengine Gutenberg Addon requires ShopEngine version 2.1.1 or higher. "
 msgstr ""
 
-#: shopengine-gutenberg-addon.php:114
+#: shopengine-gutenberg-addon.php:121
 msgid "Activate ShopEngine"
 msgstr ""
 
-#: shopengine-gutenberg-addon.php:117
+#: shopengine-gutenberg-addon.php:124
 msgid "Install ShopEngine"
 msgstr ""
 
-#: shopengine-gutenberg-addon.php:125
+#: shopengine-gutenberg-addon.php:132
 msgid ""
 "Shopengine Gutenberg Addon requires ShopEngine, which is currently NOT "
 "RUNNING. "

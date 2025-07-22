@@ -39,12 +39,7 @@ class Plugin {
 		                           ->set_block_root_path($this->dir() . 'blocks/')
 		                           ->set_block_root_url($this->url() . 'blocks/');
 
-		add_filter('doing_it_wrong_trigger_error', function ($doing_it_wrong, $function_name) {
-			if ('_load_textdomain_just_in_time' === $function_name) {
-				return false;
-			}
-			return $doing_it_wrong;
-		}, 10, 2);
+
 
 		$conf = new \Shopengine_Gutenberg_Addon\Block_Config();
 
